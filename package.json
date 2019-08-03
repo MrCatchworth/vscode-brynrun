@@ -1,0 +1,21 @@
+{
+    "name": "brynrun",
+    "displayName": "Brynrun",
+    "description": "A warm brown-grey colour theme for Dwarven eyes",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Brynrun",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Brynrun-color-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,201 @@
+{
+	"name": "Brynrun",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#3f3b37",
+        "editor.foreground": "#bfb9b3",
+
+        "activityBar.background": "#825d3f",
+        "activityBar.foreground": "#ffe542",
+        "activityBar.inactiveForeground": "#cc9735",
+
+        "activityBarBadge.background": "#c5eadc",
+        "activityBarBadge.foreground": "#000000",
+
+        "sideBar.background": "#3d3630",
+        "sideBar.foreground": "#bfb9b3",
+
+        "tab.inactiveBackground": "#3d3630",
+        "tab.inactiveForeground": "#bfb9b3",
+
+        "menu.background": "#3d3630",
+        "menu.foreground": "#bfb9b3",
+        "menu.selectionBackground": "#3f3b37",
+        "menu.selectionForeground": "#d8d2cb",
+
+        "menu.separatorBackground": "#8e8a86",
+
+        "gitDecoration.modifiedResourceForeground": "#e8ba3c",
+        "gitDecoration.untrackedResourceForeground": "#b7e288",
+
+        "statusBar.background": "#bfb9b3",
+        "statusBar.foreground": "#38332c",
+        "sideBarTitle.foreground": "#bbbbbb",
+
+        "terminal.foreground": "#bfb9b3"
+    },
+
+	"tokenColors": [
+        {
+            "name": "Variables Catch-all",
+            "scope": [
+                "variable"
+            ],
+            "settings": {
+                "foreground": "#bfb9b3"
+            }
+        },
+
+        {
+            "name": "Properties",
+            "scope": [
+                "variable.other.property",
+                "variable.other.object.property",
+                "meta.object-literal.key"
+            ],
+            "settings": {
+                "foreground": "#8e8a86",
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "name": "Punctuation Catch-all",
+            "scope": [
+                "punctuation",
+                "meta.brace",
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#efefef",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "Light Ginger Keywords",
+            "scope": [
+                "constant.language"
+            ],
+            "settings": {
+                "foreground": "#efaf6b"
+            }
+        },
+
+        {
+            "name": "Comments",
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#767b79",
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "name": "Comment Punctuation",
+            "scope": [
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#7f8c87",
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "name": "Type names",
+            "scope": [
+                "keyword.type",
+                "storage.type",
+                "entity.name.type",
+                "entity.name.module",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "#c5eadc",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "Thick keywordy stuff",
+            "scope": [
+                "storage",
+                "keyword.operator.new",
+                "keyword.operator.expression.of",
+                "keyword.operator.expression.in",
+                "keyword.operator.expression.instanceof",
+                "keyword.control",
+                "keyword.other",
+                "storage.type.class",
+                "storage.type.function",
+
+                "meta.var.expr storage.type"
+            ],
+            "settings": {
+                "foreground": "#ba855b",
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "name": "Language variables",
+            "scope": [
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#efaf6b",
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "name": "Function names",
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#e8d4b7"
+            }
+        },
+
+        {
+            "name": "Strings",
+            "scope": [
+                "string.quoted",
+                "string.template"
+            ],
+            "settings": {
+                "foreground": "#e8ba3c",
+            }
+        },
+        {
+            "name": "String quotes",
+            "scope": [
+                "punctuation.definition.string",
+                "punctuation.definition.char"
+            ],
+            "settings": {
+                "foreground": "#ffe542"
+            }
+        },
+
+        {
+            "name": "Number literals",
+            "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#b7e288"
+            }
+        },
+        {
+            "name": "Number literal dot",
+            "scope": "meta.delimiter.decimal.period",
+            "settings": {
+                "foreground": "#88cc2a"
+            }
+        }
+	]
+}
