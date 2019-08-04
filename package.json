@@ -2,9 +2,17 @@
     "name": "brynrun",
     "displayName": "Brynrun",
     "description": "A warm brown-grey colour theme for Dwarven eyes",
+    "author": {
+        "name": "MegaJohnny",
+        "email": "megajohnny@hotmail.co.uk"
+    },
+    "publisher": "JohnnyJingle",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.36.0"
+    },
+    "repository": {
+        "url": "https://github.com/MrCatchworth/vscode-brynrun"
     },
     "categories": [
         "Themes"
