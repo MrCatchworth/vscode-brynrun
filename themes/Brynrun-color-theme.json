@@ -99,19 +99,19 @@
                 "comment"
             ],
             "settings": {
-                "foreground": "#767b79",
+                "foreground": "#7a8a8c",
                 "fontStyle": "italic"
             }
         },
 
         {
-            "name": "Comment Punctuation",
+            "name": "Comments",
             "scope": [
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "foreground": "#7f8c87",
-                "fontStyle": "italic"
+                "foreground": "#7a8a8c",
+                "fontStyle": ""
             }
         },
 
@@ -226,6 +226,16 @@
             ],
             "settings": {
                 "foreground": "#8fd8e0"
+            }
+        },
+
+        {
+            "name": "Markup attribute equals sign",
+            "scope": [
+                "meta.tag.attributes keyword.operator.assignment"
+            ],
+            "settings": {
+                "foreground": "#bfb9b3"
             }
         },
 
