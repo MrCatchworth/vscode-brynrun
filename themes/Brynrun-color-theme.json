@@ -166,7 +166,8 @@
             "name": "Strings",
             "scope": [
                 "string.quoted",
-                "string.template"
+                "string.template",
+                "string.other.link.title"
             ],
             "settings": {
                 "foreground": "#e8ba3c",
@@ -195,6 +196,133 @@
             "scope": "meta.delimiter.decimal.period",
             "settings": {
                 "foreground": "#88cc2a"
+            }
+        },
+
+        {
+            "name": "Markup tags",
+            "scope": [
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#57a7af"
+            }
+        },
+
+        {
+            "name": "Markup attribute names",
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#8e8a86"
+            }
+        },
+
+        {
+            "name": "Markup class components",
+            "scope": [
+                "support.class.component"
+            ],
+            "settings": {
+                "foreground": "#8fd8e0"
+            }
+        },
+
+        {
+            "name": "Headings (markdown etc)",
+            "scope": [
+                "heading",
+                "markup.heading"
+            ],
+            "settings": {
+                "foreground": "#e8ba3c",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "Heading punctuation",
+            "scope": [
+                "punctuation.definition.heading"
+            ],
+            "settings": {
+                "foreground": "#ffe542",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "Markdown links",
+            "scope": [
+                "meta.link.inline"
+            ],
+            "settings": {
+                "foreground": "#efefef"
+            }
+        },
+
+        {
+            "name": "Markdown link URL",
+            "scope": [
+                "markup.underline.link"
+            ],
+            "settings": {
+                "foreground": "#ef924f",
+                "fontStyle": "underline"
+            }
+        },
+
+        {
+            "name": "Markdown code",
+            "scope": [
+                "markup.fenced_code",
+                "markup.inline.raw.string"
+            ],
+            "settings": {
+                "foreground": "#8fd8e0"
+            }
+        },
+
+        {
+            "name": "Markdown code start/end",
+            "scope": [
+                "markup.fenced_code punctuation.definition",
+                "markup.inline.raw.string punctuation.definition"
+            ],
+            "settings": {
+                "foreground": "#57a7af",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "Markup bold",
+            "scope": [
+                "markup.bold"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "Markup italic",
+            "scope": [
+                "markup.italic"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "name": "Markup blockquote",
+            "scope": [
+                "markup.quote"
+            ],
+            "settings": {
+                "foreground": "#8e8a86"
             }
         }
 	]
