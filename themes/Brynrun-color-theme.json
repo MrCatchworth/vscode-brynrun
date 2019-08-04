@@ -73,6 +73,16 @@
         },
 
         {
+            "name": "Semicolon",
+            "scope": [
+                "punctuation.terminator.statement"
+            ],
+            "settings": {
+                "foreground": "#7a8a8c"
+            }
+        },
+
+        {
             "name": "Light Ginger Keywords",
             "scope": [
                 "constant.language"
