@@ -47,10 +47,8 @@
         },
 
         {
-            "name": "Properties",
+            "name": "Keys",
             "scope": [
-                "variable.other.property",
-                "variable.other.object.property",
                 "meta.object-literal.key"
             ],
             "settings": {
@@ -63,8 +61,7 @@
             "name": "Punctuation Catch-all",
             "scope": [
                 "punctuation",
-                "meta.brace",
-                "keyword.operator"
+                "meta.brace"
             ],
             "settings": {
                 "foreground": "#efefef",
@@ -73,17 +70,66 @@
         },
 
         {
-            "name": "Semicolon",
+            "name": "Operators Catch-all",
             "scope": [
-                "punctuation.terminator.statement"
+                "keyword.operator",
+                "storage.type.function.arrow",
+                "punctuation.terminator.statement",
+                "punctuation.separator"
             ],
             "settings": {
-                "foreground": "#7a8a8c"
+                "foreground": "#7e9396",
+                "fontStyle": "bold"
             }
         },
 
         {
-            "name": "Light Ginger Keywords",
+            "name": "Main keywords",
+            "scope": [
+                "storage",
+                "keyword.operator.new",
+                "keyword.operator.expression",
+                "keyword.control",
+                "keyword.other",
+
+                "storage.type.interface",
+                "storage.type.class",
+                "meta.var.expr storage.type"
+            ],
+            "settings": {
+                "foreground": "#ba855b",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "Type names",
+            "scope": [
+                "storage.type",
+                "keyword.type",
+                "entity.name.type",
+                "entity.name.module",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "#9aeacc",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "Primitive types",
+            "scope": [
+                "support.type.primitive",
+                "keyword.type"
+            ],
+            "settings": {
+                "foreground": "#efb286"
+            }
+        },
+
+        {
+            "name": "True/false/null etc",
             "scope": [
                 "constant.language"
             ],
@@ -126,47 +172,13 @@
         },
 
         {
-            "name": "Type names",
-            "scope": [
-                "keyword.type",
-                "storage.type",
-                "entity.name.type",
-                "entity.name.module",
-                "entity.other.inherited-class"
-            ],
-            "settings": {
-                "foreground": "#9aeacc",
-                "fontStyle": ""
-            }
-        },
-
-        {
-            "name": "Thick keywordy stuff",
-            "scope": [
-                "storage",
-                "keyword.operator.new",
-                "keyword.operator.expression",
-                "keyword.control",
-                "keyword.other",
-                "storage.type.class",
-                "storage.type.function",
-
-                "meta.var.expr storage.type"
-            ],
-            "settings": {
-                "foreground": "#ba855b",
-                "fontStyle": "italic"
-            }
-        },
-
-        {
             "name": "Function names",
             "scope": [
                 "entity.name.function",
                 "support.function"
             ],
             "settings": {
-                "foreground": "#e8d4b7"
+                "foreground": "#f9d49d"
             }
         },
 
@@ -234,16 +246,6 @@
             ],
             "settings": {
                 "foreground": "#8fd8e0"
-            }
-        },
-
-        {
-            "name": "Markup attribute equals sign",
-            "scope": [
-                "meta.tag.attributes keyword.operator.assignment"
-            ],
-            "settings": {
-                "foreground": "#bfb9b3"
             }
         },
 
