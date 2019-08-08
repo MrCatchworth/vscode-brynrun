@@ -75,7 +75,8 @@
                 "keyword.operator",
                 "storage.type.function.arrow",
                 "punctuation.terminator.statement",
-                "punctuation.separator"
+                "punctuation.separator",
+                "punctuation.definition.typeparameters"
             ],
             "settings": {
                 "foreground": "#7e9396",
@@ -94,6 +95,7 @@
 
                 "storage.type.interface",
                 "storage.type.class",
+                "storage.type.function",
                 "meta.var.expr storage.type"
             ],
             "settings": {
