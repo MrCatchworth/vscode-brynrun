@@ -2,7 +2,7 @@
 	"name": "Brynrun",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#3f3b37",
+		"editor.background": "#423b36",
         "editor.foreground": "#bfb9b3",
 
         "activityBar.background": "#825d3f",
@@ -12,15 +12,17 @@
         "activityBarBadge.background": "#ef6b74",
         "activityBarBadge.foreground": "#ffffff",
 
-        "sideBar.background": "#3d3630",
+        "sideBar.background": "#4c3f34",
         "sideBar.foreground": "#bfb9b3",
 
-        "tab.inactiveBackground": "#3d3630",
+        "tab.inactiveBackground": "#4c3f34",
         "tab.inactiveForeground": "#bfb9b3",
 
-        "menu.background": "#3d3630",
+        "editorGroupHeader.tabsBackground": "#4c3f34",
+
+        "menu.background": "#4c3f34",
         "menu.foreground": "#bfb9b3",
-        "menu.selectionBackground": "#3f3b37",
+        "menu.selectionBackground": "#423b36",
         "menu.selectionForeground": "#d8d2cb",
 
         "menu.separatorBackground": "#8e8a86",
@@ -64,7 +66,7 @@
                 "meta.brace"
             ],
             "settings": {
-                "foreground": "#efefef",
+                "foreground": "#ddd7ce",
                 "fontStyle": ""
             }
         },
@@ -143,7 +145,8 @@
         {
             "name": "Language variables",
             "scope": [
-                "variable.language"
+                "variable.language",
+                "keyword.other.this"
             ],
             "settings": {
                 "foreground": "#ef924f",
@@ -280,7 +283,7 @@
                 "meta.link.inline"
             ],
             "settings": {
-                "foreground": "#efefef"
+                "foreground": "#ddd7ce"
             }
         },
 
