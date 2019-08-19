@@ -2,7 +2,7 @@
 	"name": "Brynrun",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#423b36",
+		"editor.background": "#544e4a",
         "editor.foreground": "#bfb9b3",
 
         "activityBar.background": "#825d3f",
@@ -22,7 +22,7 @@
 
         "menu.background": "#4c3f34",
         "menu.foreground": "#bfb9b3",
-        "menu.selectionBackground": "#423b36",
+        "menu.selectionBackground": "#544e4a",
         "menu.selectionForeground": "#d8d2cb",
 
         "menu.separatorBackground": "#8e8a86",
@@ -81,7 +81,7 @@
                 "punctuation.definition.typeparameters"
             ],
             "settings": {
-                "foreground": "#7e9396",
+                "foreground": "#7d9599",
                 "fontStyle": "bold"
             }
         },
@@ -101,7 +101,7 @@
                 "meta.var.expr storage.type"
             ],
             "settings": {
-                "foreground": "#ba855b",
+                "foreground": "#db9c69",
                 "fontStyle": ""
             }
         },
@@ -128,7 +128,7 @@
                 "keyword.type"
             ],
             "settings": {
-                "foreground": "#efb286"
+                "foreground": "#ef924f"
             }
         },
 
@@ -183,7 +183,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#f9d49d"
+                "foreground": "#e0c398"
             }
         },
 
