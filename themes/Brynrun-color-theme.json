@@ -32,9 +32,19 @@
 
         "statusBar.background": "#bfb9b3",
         "statusBar.foreground": "#38332c",
+        "statusBar.debuggingBackground": "#ef924f",
         "sideBarTitle.foreground": "#bbbbbb",
 
-        "terminal.foreground": "#bfb9b3"
+        "terminal.foreground": "#bfb9b3",
+
+        "editor.selectionBackground": "#345fbb",
+        "editor.wordHighlightBorder": "#bfb9b3bb",
+        "editor.wordHighlightBackground": "#bfb9b320",
+
+        "editor.findMatchBackground": "#F3690038",
+        "editor.findMatchBorder": "#F36900bb",
+        "editor.findMatchHighlightBackground": "#F3690038",
+        "editor.findMatchHighlightBorder": "#F3690060"
     },
 
 	"tokenColors": [

@@ -1,9 +1,3 @@
-# Change Log
+## 2021-04-07 - 0.0.6
 
-All notable changes to the "brynrun" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- Various changes to regions such as selection, search results, and same-word highlights - hopefully these regions "pop" a bit more
