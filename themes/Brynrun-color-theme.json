@@ -39,7 +39,9 @@
 
         "editor.selectionBackground": "#345fbb",
         "editor.wordHighlightBorder": "#bfb9b3bb",
+        "editor.wordHighlightStrongBorder": "#bfb9b3bb",
         "editor.wordHighlightBackground": "#bfb9b320",
+        "editor.wordHighlightStrongBackground": "#bfb9b320",
 
         "editor.findMatchBackground": "#F3690038",
         "editor.findMatchBorder": "#F36900bb",
@@ -103,6 +105,7 @@
                 "keyword.operator.new",
                 "keyword.operator.expression",
                 "keyword.control",
+                "keyword.local",
                 "keyword.other",
 
                 "storage.type.interface",
