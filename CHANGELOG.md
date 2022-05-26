@@ -1,3 +1,7 @@
+## 2022-05-26 - 0.0.8
+
+- Improve token scopes for some languages, particularly Rust
+
 ## 2021-04-12 - 0.0.7
 
 - Unify the style of word highlighting (the read and write versions used to be different)
