@@ -46,7 +46,9 @@
         "editor.findMatchBackground": "#F3690038",
         "editor.findMatchBorder": "#F36900bb",
         "editor.findMatchHighlightBackground": "#F3690038",
-        "editor.findMatchHighlightBorder": "#F3690060"
+        "editor.findMatchHighlightBorder": "#F3690060",
+
+        "editorInlayHint.foreground": "#8e8a8699"
     },
 
 	"tokenColors": [
@@ -90,7 +92,15 @@
                 "storage.type.function.arrow",
                 "punctuation.terminator.statement",
                 "punctuation.separator",
-                "punctuation.definition.typeparameters"
+                "punctuation.comma",
+                "punctuation.other.comma",
+                "punctuation.semi",
+                "punctuation.definition.typeparameters",
+                "punctuation.brackets.angle",
+                "punctuation.accessor",
+                "punctuation.other.period",
+                "punctuation.section.angle-brackets",
+                "punctuation.vararg-ellipses"
             ],
             "settings": {
                 "foreground": "#7d9599",
@@ -107,11 +117,20 @@
                 "keyword.control",
                 "keyword.local",
                 "keyword.other",
+                "keyword.function",
+                "keyword.package",
+                "keyword.struct",
+                "keyword.var",
 
                 "storage.type.interface",
                 "storage.type.class",
                 "storage.type.function",
-                "meta.var.expr storage.type"
+                "storage.type.rust",
+                "storage.type.type",
+                "storage.type.template",
+                "storage.type.namespace.definition",
+                "meta.var.expr storage.type",
+                "punctuation.definition.directive"
             ],
             "settings": {
                 "foreground": "#db9c69",
@@ -138,6 +157,10 @@
             "name": "Primitive types",
             "scope": [
                 "support.type.primitive",
+                "entity.name.type.primitive",
+                "entity.name.type.lifetime",
+                "entity.name.type.numeric",
+                "storage.type.boolean",
                 "keyword.type"
             ],
             "settings": {
@@ -146,9 +169,10 @@
         },
 
         {
-            "name": "True/false/null etc",
+            "name": "Not-many-values types: booleans, null, enum members, etc...",
             "scope": [
-                "constant.language"
+                "constant.language",
+                "variable.other.enummember"
             ],
             "settings": {
                 "foreground": "#bce0d2"
@@ -215,6 +239,7 @@
             "name": "String quotes",
             "scope": [
                 "punctuation.definition.string",
+                "string.quoted.byte.raw",
                 "punctuation.definition.char"
             ],
             "settings": {
