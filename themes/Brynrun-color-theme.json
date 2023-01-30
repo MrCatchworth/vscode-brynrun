@@ -91,11 +91,13 @@
                 "keyword.operator",
                 "storage.type.function.arrow",
                 "punctuation.terminator.statement",
+                "punctuation.terminator.rule",
                 "punctuation.separator",
                 "punctuation.comma",
                 "punctuation.other.comma",
                 "punctuation.semi",
                 "punctuation.definition.typeparameters",
+                "punctuation.definition.entity.css",
                 "punctuation.brackets.angle",
                 "punctuation.accessor",
                 "punctuation.other.period",
@@ -248,6 +250,17 @@
         },
 
         {
+            "name": "SCSS '@' sigil",
+            "scope": [
+                "punctuation.definition.keyword.scss"
+            ],
+            "settings": {
+                "foreground": "#db9c69",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
             "name": "Number literals",
             "scope": "constant.numeric",
             "settings": {
@@ -261,6 +274,46 @@
                 "foreground": "#88cc2a"
             }
         },
+        {
+            "name": "Number units",
+            "scope": [
+                "keyword.other.unit"
+            ],
+            "settings": {
+                "foreground": "#88cc2a",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "CSS W3C Colours",
+            "scope": [
+                "support.constant.color.w3c-standard-color-name"
+            ],
+            "settings": {
+                "foreground": "#bce0d2",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "CSS hex colours",
+            "scope": [
+                "constant.other.color.rgb-value.hex"
+            ],
+            "settings": {
+                "foreground": "#bfb9b3"
+            }
+        },
+        {
+            "name": "CSS hex hash symbol",
+            "scope": [
+                "punctuation.definition.constant"
+            ],
+            "settings": {
+                "foreground": "#ddd7ce",
+                "fontStyle": "bold"
+            }
+        },
+
 
         {
             "name": "Markup tags",

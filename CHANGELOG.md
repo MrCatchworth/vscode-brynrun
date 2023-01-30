@@ -1,3 +1,7 @@
+## 2023-01-30 - 0.0.9
+
+- Scope and colour improvements targeted at SCSS
+
 ## 2022-05-26 - 0.0.8
 
 - Improve token scopes for some languages, particularly Rust
