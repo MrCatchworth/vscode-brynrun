@@ -8,6 +8,10 @@
     },
     "publisher": "JohnnyJingle",
     "version": "0.0.8",
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
     "engines": {
         "vscode": "^1.36.0"
     },
